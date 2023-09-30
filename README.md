@@ -31,20 +31,20 @@ touch .env
 nano .env
 ```
 
-7. Записать в файл следующие настройки
+7. Записать в файл следующие настройки (можно указать свои значения)
+
+Не менять значения `POSTGRES_HOST=db_shop`.
+Для локального запуска `HOST` также можно не менять.
 
 ```
-POSTGRES_USER=
+POSTGRES_USER=user
 POSTGRES_DB=shop_db
 POSTGRES_PORT=5432
-POSTGRES_PASSWORD=
+POSTGRES_PASSWORD=12345
 POSTGRES_HOST=db_shop
 
 HOST=127.0.0.1
 ```
-
-Не менять значения `POSTGRES_HOST=db_shop`.
-Для локального запуска `HOST` также можно не менять.
 
 В каталоге проекта есть шаблон `.env.template`
 

@@ -10,13 +10,13 @@
 3. Выполнить команду для клонирования проекта
 
 ```bash
-git clone https://github.com/arinazaikina/ads_board.git
+git clone https://github.com/arinazaikina/electronics_trade_network_platform.git
 ```
 
 4. Перейти в каталог проекта
 
 ```bash
-cd ads_board
+cd electronics_trade_network_platform
 ```
 
 5. В корневой папке проекта создать файл `.env`
@@ -35,7 +35,7 @@ nano .env
 
 ```
 POSTGRES_USER=
-POSTGRES_DB=
+POSTGRES_DB=shop_db
 POSTGRES_PORT=5432
 POSTGRES_PASSWORD=
 POSTGRES_HOST=db_shop
@@ -43,7 +43,7 @@ POSTGRES_HOST=db_shop
 HOST=127.0.0.1
 ```
 
-Не менять значения `POSTGRES_HOST=db_habit`.
+Не менять значения `POSTGRES_HOST=db_shop`.
 Для локального запуска `HOST` также можно не менять.
 
 В каталоге проекта есть шаблон `.env.template`
